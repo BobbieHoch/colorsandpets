@@ -39,7 +39,8 @@ export function ArraysEx() {
           </tr>
         </thead>
         <tbody>
-          {pets.map((pet) => <tr key={pet.id}>
+          {pets.map((pet) =>
+            <tr key={pet.id}>
             <td>{pet.name}</td>
             <td>{pet.type}</td>
             </tr>
